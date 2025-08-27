@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<title>Ndhambi | Programador</title>
+</head>
+
+<body class="font-['Roboto_Mono',monospace] text-base bg-black ">
+	<!--Navbar-->
+	<header class="fixed left-1/2 max-w-7xl mx-auto transform -translate-x-1/2 z-[1000] w-[95%] mt-3 border border-black rounded-full">
+		<nav class="flex items-center justify-between backdrop-blur-sm py-1 px-2">
+			<div>
+				<img src="wave-pixel.png" class="w-10 h-10"/>
+			</div>
+			
+			<button class="p-2 text-gray-100">
+			  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+				  d="M4 6h16M4 12h16M4 18h16" />
+			  </svg>
+			</button>
+		</nav>
+	</header>
+	<!--Hero Section-->
+	<section class="h-screen bg-[url('bg-pattern.png')] bg-cover bg-no-repeat ">
+		<div class="flex flex-col justify-between px-7 h-full py-14 max-w-7xl mx-auto">
+			<p class="text-gray-500 font-bold">Ndhambi, The Hero Dev</p>
+			<div class="py-6" > </div>
+			<div class="text-gray-200">
+				<h1 class="text-3xl md:text-5xl font-bold"> <span class="bg-gradient-to-r from-[#54ccfe] to-white bg-clip-text text-transparent" >Salvando</span> o dia com linhas de código<span class="bg-gradient-to-r from-[#54ccfe] to-white bg-clip-text text-transparent " >_</span></h1>
+				<div class="flex items-center py-6 px-4 mt-2 gap-6 bg-gradient-to-r from-gray-800/50 via-gray-900/800 to-gray-800/20 rounded-lg shadow-lg" >
+					<img src="ndhambi.png" class="rounded-full w-16 h-16 border border-gray-400" />
+					<div>
+						<h1 class="font-bold" >Ndhambi Osvaldo</h1>
+						<p class="text-gray-400">Programador</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="flex gap-3">
+				<button class="w-fit flex gap-1 py-2 px-4 shadow-lg rounded-full text-white bg-gradient-to-r from-[#007cc8] to-[#54ccfe] border border-[#54ccfe] " >
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+					  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+					</svg>
+
+					CV
+				</button>
+				<button class="w-fit py-2 px-4 rounded-full text-[#54ccfe] border border-[#54ccfe] " >
+					contactar
+				</button>
+			</div>	
+		</div>
+	</section>	
+</body>
+</html>
